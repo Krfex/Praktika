@@ -1,0 +1,116 @@
+.div-bg-s{
+background-image:url(/img/cover.jpg);
+background-size: cover;
+padding: 50px 0 100px;
+}
+.div-pos-over {
+    overflow: hidden;
+    background-color: #000;
+    background-position: center center;
+    position: relative;
+}
+.sdark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+}
+
+
+body {
+    margin: 0px;
+}
+.wrap{
+    position:relative;
+}
+.wrap img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.text{
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    text-align:center;
+}
+.text:after{
+    content:'';
+    width:1px; height:100%;
+    vertical-align:middle;
+    display:inline-block;
+}
+.text span{
+    display:inline-block;
+    vertical-align:middle;
+}
+.text-padding-1{
+    padding-top: 20%;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.imgWrap{
+    display:inline-block;
+    background:#000;
+    position:relative;
+}
+
+.imgWrap > img{ 
+    display:block; 
+    opacity:.5; 
+}
+.imgWrap > span{ 
+    position:absolute; 
+    display:table; 
+    text-align:center; 
+    z-index:1; 
+    height:100%; 
+    left:0; 
+    right:0; 
+    padding:20px; 
+    color:#FFF; 
+    font-size:2em; 
+}
+.imgWrap > span::after{ 
+    content:attr(data-title); 
+    display:table-cell; 
+    vertical-align: middle; 
+}
+
+.img-fit{
+    width: 400px;
+    height: 400px;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        filter: grayscale(var(--img_grayscale, 0)) blur(var(--img_blur, 0));
+        transition: .3s cubic-bezier(.15, .85, .47, 1.04);
+    }
+.img-box-border {
+        box-sizing: border-box;
+        border: 10px solid #fff;
+        box-shadow: var(--section-image-shadow);
+        padding: 20px;
+    
+}
+.card-pad{
+    padding: 12px;
+}
+.button {
+    top:50%;
+    background-color:#749DA0;
+    color: #fff;
+    border:none;
+    border-radius:100px;
+  }
+.button:active {
+    background-color: #c9d8d7;
+}

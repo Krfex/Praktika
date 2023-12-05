@@ -1,0 +1,76 @@
+.div-bg-s{
+background-image:url(/img/cover.jpg);
+background-size: cover;
+padding: 50px 0 100px;
+}
+.div-pos-over {
+    overflow: hidden;
+    background-color: #000;
+    background-position: center center;
+    position: relative;
+}
+.sdark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+}
+
+
+.font-mons{
+font-family: Montserrat, sans-serif;
+}
+.img-null{
+    background-image: url(/img/null.png);
+}
+.img-null-2{
+    background-image: url(/img/null.png);
+    opacity:0.5;
+}
+.img-bg-url>div.dark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+}
+.img-bg-url-2.img-bg-url {
+    padding: 50px 0 100px;
+}
+.img-bg-url-2 {
+    overflow: hidden;
+    background-color: #000;
+    background-position: center center;
+    position: relative;
+}
+.img-bg-url-2, .img-bg-url-2.fixed {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-bg-url {
+    width: 100%;
+    min-width: 1170px;
+    padding: 40px 0;
+    line-height: 1.4;
+    background-position: center center;
+    background-repeat: repeat;
+    transition: .5s;
+    opacity: 1;
+}
+.img-bg-url-2 .title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.img-bg-url .img-bg-url_inner .title {
+    font-family: Montserrat, sans-serif;
+}
+.img-bg-url, .img-bg-url_inner {
+    position: relative;
+}

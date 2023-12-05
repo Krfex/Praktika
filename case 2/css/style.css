@@ -1,0 +1,17 @@
+
+ .img-fit {
+    width: 350px; /* You can set the dimensions to whatever you want */
+    height: 570px;
+    object-fit: contain;
+}
+
+.img-fit-category {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: contain;
+}
+.img-fit-2 {
+  width: 280px; /* You can set the dimensions to whatever you want */
+  height: 400px;
+  object-fit: fill;
+}
